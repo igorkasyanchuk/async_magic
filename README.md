@@ -154,6 +154,15 @@ The error will be logged and the future will contain the error
   AsyncMagic.shutdown # Waits up to 5 seconds for completion
 ```
 
+## Code style
+
+Just use:
+
+```bash
+  $ bundle exec standardrb
+  # or
+  $ bundle exec standardrb --fix
+```
 
 ## Contributing
 
