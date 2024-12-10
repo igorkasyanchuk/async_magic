@@ -25,5 +25,7 @@ jobs:
           bundler-cache: true
       - name: standardrb
         run: bundle exec standardrb
+      - name: db
+        run: bundle exec rails db:migrate
       - name: specs
         run: bundle exec rspec
