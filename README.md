@@ -6,7 +6,7 @@ AsyncMagic is a lightweight Ruby gem that makes it effortless to add asynchronou
 
 Inspired by Rails [`async`](https://github.com/rails/rails/blob/9ffd264e016ee5501b19286c2f48d952e910e96c/activejob/lib/active_job/queue_adapters/async_adapter.rb#L89) methods.
 
-!!! I believe it should be fine to use the gem in production for small apps. For now, I consider this a fun project.
+!!! I believe it should be fine to use the gem in production for small apps. For now, I consider this a fun project. Please support with testing it.
 
 ## Features
 
