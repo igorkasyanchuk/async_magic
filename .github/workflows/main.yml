@@ -26,6 +26,6 @@ jobs:
       - name: standardrb
         run: bundle exec standardrb
       - name: db
-        run: cd spec/dummy && bundle && bundle exec rails db:migrate
+        run: cd spec/dummy && bundle && bundle exec rails db:migrate && bundle exec rails db:test:prepare
       - name: specs
         run: bundle exec rspec
