@@ -168,6 +168,13 @@ Just use:
   $ bundle exec standardrb --fix
 ```
 
+## Tasks
+
+- extensive production testing
+- more configuration options (maybe different queues?)
+- better readme
+- consider adding delayed or recurring tasks, as part of "async" macros
+
 ## Contributing
 
 You are welcome to contribute to this gem.
