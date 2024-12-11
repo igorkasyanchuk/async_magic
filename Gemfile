@@ -12,8 +12,8 @@ gem "rails", "~> 8.0"
 gem "sqlite3", ">= 2.1"
 gem "diff-lcs"
 gem "debug"
-gem "rubocop-rails-omakase"
 
 group :test do
   gem "rspec"
+  gem "rspec-rails"
 end

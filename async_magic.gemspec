@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Igor Kasyanchuk"]
   spec.email = ["igorkasyanchuk@gmail.com"]
 
-  spec.summary = "Simple async methods for Ruby"
-  spec.description = "Simple async methods for Ruby"
+  spec.summary = "Simple async methods for Ruby, Ruby on Rails applications"
+  spec.description = "Simple async methods for Ruby, Ruby on Rails applications"
   spec.homepage = "https://github.com/igorkasyanchuk/async_magic"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
@@ -28,8 +28,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "concurrent-ruby"
+
   spec.add_development_dependency "rails"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "diff-lcs"
   spec.add_development_dependency "debug"
 end
