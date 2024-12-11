@@ -1,5 +1,7 @@
 # AsyncMagic
 
+![AsyncMagic](docs/async_magic.png)
+
 AsyncMagic is a lightweight Ruby gem that makes it effortless to add asynchronous method execution to your Ruby classes. With a simple `async` declaration, your methods will execute in a managed thread pool, providing non-blocking operations while maintaining clean, readable code.
 
 Inspired by Rails [`async`](https://github.com/rails/rails/blob/9ffd264e016ee5501b19286c2f48d952e910e96c/activejob/lib/active_job/queue_adapters/async_adapter.rb#L89) methods.

@@ -11,3 +11,7 @@
 
 spec/dummy/log/
 spec/dummy/tmp/
+
+.DS_Store
+
+/**/.DS_Store */

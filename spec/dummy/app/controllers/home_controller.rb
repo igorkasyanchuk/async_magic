@@ -7,6 +7,10 @@ class HomeController < ApplicationController
 
   private
 
+  #
+  # super basic example
+  #
+
   async
   def create_visit
     sleep 0.1
