@@ -1,5 +1,7 @@
 # AsyncMagic
 
+[!["Buy Me A Coffee"](https://github.com/igorkasyanchuk/get-smart/blob/main/docs/snapshot-bmc-button-small.png?raw=true)](https://buymeacoffee.com/igorkasyanchuk)
+
 ![AsyncMagic](docs/async_magic.png)
 
 AsyncMagic is a lightweight Ruby gem that makes it effortless to add asynchronous method execution to your Ruby classes. With a simple `async` declaration, your methods will execute in a managed thread pool, providing non-blocking operations while maintaining clean, readable code.
@@ -186,3 +188,5 @@ This gem is available as open source under the terms of the [MIT License](https:
 ## Credits
 
 Thanks AI to help me write this gem faster :)
+
+[!["Buy Me A Coffee"](https://github.com/igorkasyanchuk/get-smart/blob/main/docs/snapshot-bmc-button.png?raw=true)](https://buymeacoffee.com/igorkasyanchuk)
